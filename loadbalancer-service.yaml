@@ -8,5 +8,5 @@ spec:
     app: flask-load-balancer
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 8008
       nodePort: 30080 

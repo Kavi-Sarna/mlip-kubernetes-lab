@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # TODO: Add backend server URL for round-robin distribution
 BACKEND_SERVERS = [
-   # "http://<unique-service-name>:5001"
+   "http://lab9:5001"
 ]
 
 # Round-robin iterator for distributing requests
@@ -22,4 +22,4 @@ def load_balance():
 
 if __name__ == '__main__':
     # TODO: Change the port if necessary (default is 8080)
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=8008)
